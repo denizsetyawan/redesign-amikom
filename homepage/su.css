@@ -1,0 +1,84 @@
+body {
+	font-family: Myriad Pro;
+}
+.abu li a, a, p{
+	color: #474747;
+}
+	.abu a:hover{
+		color: #fdad00;
+		text-decoration: none;
+		text-shadow: 0 1px 3px #61008e;
+	}
+.putih li a, a, p{
+	color: white;
+}
+	.putih a:hover{
+		color: #fdad00;
+		text-decoration: none;
+	}
+.ungu a:hover{
+	color: #61008e;
+	text-shadow: 0 1px 5px #white;
+}
+.orange a, h3{
+	color: #fdad00;
+}
+	.orange a:hover{
+		text-shadow: 0 1px 2px #61008e;
+		text-decoration: none;
+	}
+.fkiri {
+	float: left;
+}
+.fkanan{
+	float: right;
+}
+.14 a, p{
+	font-size:50px;
+}
+ul li {
+	margin-right:1rem;
+}
+	}
+		ul li a:hover{
+			color: #fdad00;
+			text-shadow: 0 1px 5px white;
+		}
+#head1{
+	background-color:#7e0090;
+	height: 35px;
+}
+#head2{
+	height: 154px;
+	background-color: #fdad44;
+}
+#slide{
+	height: 500px;
+}
+#berita{
+	height: 300px;
+}
+#daftar{
+	background-color: #7e00b9;
+	width: 60%;
+	height: 300px;
+}
+	#daftar img:hover{
+		width: 105px;
+		height: 105px;
+		transition: 0.5s;
+		position: inherit;
+	}
+#cari{
+	background-color: #b400ff;
+	width: 40%;
+	height: 300px;
+}
+
+#footer{
+	background-color: #7e0090;
+	height: 300px;
+}
+.row{
+	padding: 10px;
+}
