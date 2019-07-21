@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Universitas Amikom Yogyakarta</title>
+	<link href="gambar/logo.png" type="icon" rel="icon">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="bt/css/bootstrap.css">
+	<link href="bt/css/style.css" rel="stylesheet">
+	<style>
+	body{
+		background-color: #FFF5EE;
+		overflow-x: hidden;
+	}
+    .dropdown-menu {
+        border-radius: 0px !important;
+    }
+	.dropdown-item{
+		color: #fdad00;
+	}
+    .dropdown-item:hover {
+        background-color: transparent;
+		text-shadow: 0 1px 3px white;
+    }
+    .dropdown:hover>.dropdown-menu {
+		display: block;
+		background:rgba(148, 0, 211,0.7);
+    }
+	a{
+		color: #fdad00;
+		font-size: 20px;
+	}
+		a:hover{
+			color: #fdad00;
+			text-shadow: 0 1px 3px #ae001e;
+			transition: 0.4s;
+			transform: scale(1.1);
+		}
+	.carousel-inner img {
+		width: 100%;
+		height: 100%;
+	}
+	.info a{
+		font-size: 15px;
+	}
+	.card img{
+		height: 200px;
+	}
+	.info a{
+		color: grey;
+	}
+	.info a:hover{
+		text-shadow: 0 1px 3px white;
+		text-decoration: none;
+	@media screen and (max-width: 1024px) {
+		.nav{
+			position : inherit;
+		}
+		.grid{
+			display : none;
+		}
+		.sponsor img{
+			width: 100%;
+		}
+		.info{
+			margin-top: 10px;
+		}
+	}
+	}
+	@media screen and (max-width: 768px) {
+		a:hover{
+			transform: none;
+		}
+		.nav{
+			position : inherit;
+		}
+		.carousel{
+			display : none;
+		}
+		.grid{
+			display : none;
+		}
+		.sponsor img{
+			width: 100%;
+		}
+		.info{
+			margin-top: 10px;
+		}
+		#daftar{
+			width: 100%;
+		}
+		#cari{
+			width: 100%;
+			margin-bottom: 10px;
+		}
+	}
+
+	</style>
+
+</head>
+<body>
+	<header class="nav navbar fixed-top">
+		<div class="navbar-brand ml-3"><img class="mr-2" src="gambar/logo.png" height="40" width="40"><a style="color:white; ">Amikom University</a></div>
+		<nav class="navbar navbar-expand-lg">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<img src="gambar/option.png" width="30px">
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDropdown">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="home.html">Beranda</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Tentang
+						</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="profil.html">Profil</a>
+								<a class="dropdown-item" href="organisasi.html">Struktur</a>
+								<a class="dropdown-item" href="visi.html">Visi & Misi</a>
+								<a class="dropdown-item" href="awards.html">Award</a>
+								<a class="dropdown-item" href="mars.html">Mars</a>
+								<a class="dropdown-item" href="sarana.html">Sarana dan Prasarana</a>
+								<a class="dropdown-item" href="Mitra.html">Mitra</a>
+							</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Akademik
+						</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="gallery.html">Gallery</a>
+								<a class="dropdown-item" href="UKM.html">UKM</a>
+								<a class="dropdown-item" href="events.html">Event</a>
+							</div>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Fakultas
+						</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+								<a class="dropdown-item" href="prodi.html">Program Studi</a>
+								<a class="dropdown-item" href="DOSEN.html">Dosen</a>
+							</div>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="jadwal.html">Pendaftaran</a>
+					</li>
+					<li class="nav-item active">
+						<a class="nav-link" href="login.html">Login</a>
+					</li>
+				</ul>
+			</div>
+		</nav>		
+	</header>
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="gambar/slide1.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="gambar/slide2.jpg">
+    </div>
+    <div class="carousel-item">
+      <img src="gambar/slide3.jpg">
+    </div>
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+	<article>
+		<div class="container container-fluid mt-4">
+			<div class="row">
+				<div class="col-xl-8">
+					<h5 class="font-italic mb-2">Berita Utama | <a href="berita.html" style="font-size: 15px; color: grey;">All</a></h5>
+					<div class="card-deck">
+						<div class="card" style="width:400px">
+							<img class="card-img-top" src="gambar/berita1.jpg" alt="Card image" style="width:100%">
+							<div class="card-body">
+								<h4 class="card-title">AMCC AMIKOM</h4>
+								<p class="card-text">AMCC AMIKOM Yogyakarta Meraih juara pertama dalam Hackathon Cybertech Politeknik Negeri Padang.... <a href='#' style="color: gray; font-size: 14px;">See More</a></p>
+							</div>
+						</div>
+						<div class="card" style="width:400px">
+							<img class="card-img-top" src="gambar/berita2.jpg" alt="Card image" style="width:100%">
+							<div class="card-body">
+								<h4 class="card-title">AMIKOM</h4>
+								<p class="card-text">Pelatihan Riset dan Berita Pustekkom Kemendikbud RI di Universitas Amikom Yogyakarta.... <a href='#' style="color: gray; font-size: 14px;">See More</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="card-deck mt-3">
+						<div class="card" style="width:400px">
+							<img class="card-img-top" src="gambar/berita3.jpg" alt="Card image" style="width:100%">
+							<div class="card-body">
+								<h4 class="card-title">Silat Gaesss</h4>
+								<p class="card-text">Pencak Silat Amikom Raih 9 Medali di YKTC 5 2019.... <a href='#' style="color: gray; font-size: 14px;">See More</a></p>
+							</div>
+						</div>
+						<div class="card" style="width:400px">
+							<img class="card-img-top" src="gambar/berita4.jpg" alt="Card image" style="width:100%">
+							<div class="card-body">
+								<h4 class="card-title">Mudik Kuyy</h4>
+								<p class="card-text">343 orang Mahasiswa dan alumni Universitas Amikom Yogyakarta mengikuti agenda mudik bareng ke mana saja asal sama kamu.... <a href='#' style="color: gray; font-size: 14px;">See More</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="info col-xl-4">
+					<h5 class="info font-italic mb-2">Sekilas Info | <a href="jurnal.html" style="font-size: 15px; color: grey;">All</a></h5>
+					<table class="table table-hover info">
+						<tr><td><a href="#">Rekruitmen Student Staff Resource Center (Perpustakaan)</a><td><tr>
+						<tr><td><a href="#">Campus Hiring Information Technology 2019</a><td><tr>
+						<tr><td><a href="#">Kuliah Umum Literasi dan Edukasi Digital Transformation In a Journey Taken From Indonesian Life Insurance Industry</a><td><tr>
+						<tr><td><a href="#">Pengumuman Pelaksanaan Ujian Pendadaran dan Yudisium untuk Wisuda Periode 72</a><td><tr>
+						<tr><td><a href="#">Recruitment Student Staff DAAK Universitas Amikom Yogyakarta</a><td><tr>
+						<tr><td><a href="#">Oprec Pengurus KOMA 2019/2020</a><td><tr>
+						<tr><td><a href="#">Informasi Uji Kompetensi Sertifikasi BNSP</a><td><tr><td></td></tr>
+					</table>
+				</div>
+			</div>
+		</div>
+	</article>
+	<div class="mt-4 mb-5">
+		<div id="daftar" class="float-left">
+			<h3 class="ml-3 mt-2" style="color: white;">Info Pendaftaran</h3>
+			<h6 class="ml-3 mt-2" style="color: white;">Semua yang anda butuhkan ada disini</h6>
+			<ul class="nav navbar">
+				<li><a href="#"><img src="gambar/syarat.png" width="100px" height="100px"></a></li>
+				<li><a href="#"><img src="gambar/konsultasi.png" width="100px" height="100px"></a></li>
+				<li><a href="maps.html"><img src="gambar/lokasi.png" width="100px" height="100px"></a></li>
+				<li><a href="#"><img src="gambar/cs.png" width="100px" height="100px"></a></li>
+				<li><a href="#"><img src="gambar/browsur.png" width="100px" height="100px"></a></li>
+			</ul>
+			<center><button class="btn btn-light mt-5" style="width: 85%;"><a href="pendaftaran.html">DAFTAR SEKARANG</a></button></center>
+		</div>
+		<div id="cari" class="float-right">
+			<h3 class="ml-3 mt-2">Pencarian</h3>
+			<h6 class="ml-3 mt-2">Anda bingung? gunakan form pencarian dibawah...</h6>
+			<form class="mt-3 ml-3 mr-3">
+				<input class="form-control" type="search" placeholder="Search..." aria-label="Search">
+				<button class="btn btn-secondary mt-3" style="width: 40%;"><a href="#">CARI</a></button>
+			</form>
+		</div>
+	</div>
+	<article>
+		<div class="container container-fluid"><center>
+			<div class="grid">
+				<figure class="effect-layla">
+					<img src="gambar/suyanto1.jpg" width="800" height="400">
+					<figcaption>
+						<h2>Prof. <span>Suyanto</span></h2>
+						<p>Rektor Universitas Amikom Yogyakarta</p>
+						<a href="#">View more</a>
+					</figcaption>			
+				</figure></center>
+		</div>
+	</article>
+	<div class="sponsor">
+		<center><img src="gambar/sponsor.png"></center>
+	</div>
+	<footer>
+		<div class="row mr-5 ml-5 mt- 4 ">
+			<div class="col-xl-3 col-lg-3 col-md-3 mt-3">
+				<p style="color: white; font-size: 17px;">Copyright &copy 2019</p>
+				<p style="color: white; font-size: 14px;">UNIVERSITAS AMIKOM YOGYAKARTA</p>
+				<p style="color: white; font-size: 14px;">All Right Reserved</p>
+				<a class="font-weight-bold" href="Pemahaman.html" style="color: white; font-size: 14px;">CREW</a>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 mt-3">
+				<p class="font-weight-bold" style="color: white; font-size: 14px;">MENU</p>
+				<ul class="navbar-nav">
+					<li><a href="#" style="color: white; font-size: 14px;">Sitemap</a></li>
+					<li><a href="#" style="color: white; font-size: 14px;">Contact</a></li>
+					<li><a href="#" style="color: white; font-size: 14px;">English Version</a></li>
+				</ul>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 mt-3">
+				<p class="font-weight-bold" style="color: white;">LINKS</p>
+				<ul class="navbar-nav">
+					<li><a href="#" style="color: white; font-size: 14px;">University Link</a></li>
+					<li><a href="#" style="color: white; font-size: 14px;">Suyanto Consulting</a></li>
+					<li><a href="#" style="color: white; font-size: 14px;">Battle of Surabaya</a></li>
+				</ul>
+			</div>
+			<div class="col-xl-3 col-lg-3 col-md-3 mt-3">
+				<ul class="navbar-nav">
+					<li class="font-weight-bold"><p style="color: white;">Universitas Amikom Yogyakarta</p></li>
+					<li><p style="color: white; font-size: 14px;">Kampus Terpadu : Jl. Ring Road Utara, Condong Catur, Sleman, Yogyakarta</p></li>
+					<li><p style="color: white; font-size: 14px;">Telp: (0274) 884201 - 207</p><li>
+					<li><p style="color: white; font-size: 14px;">Fax: (0274) 884208 Kodepos: 55283</p></li>
+					<li><p style="color: white; font-size: 14px;">E-Mail: amikom@amikom.ac.id</p></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	</footer>
+<script src="bt/jquery/jquery.min.js"></script>
+<script src="bt/js/bootstrap.min.js"></script>
+</body>
+<html>
